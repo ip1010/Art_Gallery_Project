@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&display=swap");
+html, body{
+    width: 2000px; 
+    height: 2233px; 
+    margin: 0; 
+    padding: 0;
+}
+body{
+    font-family: "Inria Serif", serif;
+    position: relative;
+}
+.paintings{
+    position: relative;
+}
+.MonaLisa, .Swing, .GirlWithPearl, .StarryNight, .Scream, .GreatWave, .Back, .Tip{
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+.Tip{
+    width: 846px;
+    height: 58px;
+    left: 114px;
+    top: 21px;
+    font-size: 48px;
+    border: 10px solid black;
+}
+.MonaLisa img {
+    width: 100%;
+    height: 100%;
+}
+.Swing img {
+    width: 100%;
+    height: 100%;
+}
+.GirlWithPearl img {
+    width: 100%;
+    height: 100%;
+}
+.StarryNight img {
+    width: 100%;
+    height: 100%;
+}
+.Scream img {
+    width: 100%;
+    height: 100%;
+}
+.GreatWave img {
+    width: 100%;
+    height: 100%;
+}
+.Back img {
+    width: 100%;
+    height: 100%;
+}
+.Tip img {
+    width: 100%;
+    height: 100%;
+}
+.MonaLisa{
+    width: 546px;
+    height: 742px;
+    left: 1089px;
+    top: 21px;
+}
+.Swing{
+    width: 931px;
+    height: 580px;
+    left: 72px;
+    top: 171px;
+}
+.GirlWithPearl{
+    width: 483px;
+    height: 524px;
+    left: 72px;
+    top: 806px;
+}
+.StarryNight{
+    width: 1029px;
+    height: 767px;
+    left: 606px;
+    top: 806px;
+}
+.Scream{
+    width: 483px;
+    height: 714px;
+    left: 72px;
+    top: 1430px;
+}
+.GreatWave{
+    width: 1029px;
+    height: 496px;
+    left: 606px;
+    top: 1648px;
+}
+.Back{
+    width: 207px;
+    height: 209px;
+    left: 27px;
+    top: 1858px;
+    display: none;
+}
+.MonaLisa:hover, .Swing:hover, .GirlWithPearl:hover, .StarryNight:hover, .Scream:hover, .GreatWave:hover, .Back:hover{
+    box-shadow: 20px 20px 5px grey;
+}
+.Tip:hover{
+    box-shadow: 10px 10px 5px grey;
+}
