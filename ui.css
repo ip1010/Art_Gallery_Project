@@ -18,9 +18,10 @@ body{
     display: inline-block;
     width: 100%;
     height: 100%;
+    border: 10px outset rgb(228, 228, 228)
 }
 .Tip{
-    width: 916px;
+    width: 930px;
     height: 58px;
     left: 172px;
     top: 21px;
