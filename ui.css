@@ -104,11 +104,7 @@ body{
     top: 1858px;
     display: none;
 }
-.MonaLisa:hover, .Swing:hover, .GirlWithPearl:hover, .StarryNight:hover, .Scream:hover, .GreatWave:hover, .Back:hover{
-    box-shadow: 20px 20px 15px grey;
+.MonaLisa:hover, .Swing:hover, .GirlWithPearl:hover, .StarryNight:hover, .Scream:hover, .GreatWave:hover, .Tip:hover{
     cursor: pointer;
-}
-.Tip:hover{
-    box-shadow: 10px 10px 15px grey;
-    cursor: pointer;
+    transform: rotateZ(3deg);
 }
