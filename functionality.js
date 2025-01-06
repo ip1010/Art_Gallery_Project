@@ -6,6 +6,7 @@ let GirlWithPearl = paintings.querySelector('.GirlWithPearl')
 let StarryNight = paintings.querySelector('.StarryNight')
 let Scream = paintings.querySelector('.Scream')
 let GreatWave = paintings.querySelector('.GreatWave')
+let Bluesky = paintings.querySelector('.Bluesky')
 let Back = paintings.querySelector('.Back')
 
 Tip.addEventListener('click', function(){
@@ -28,4 +29,7 @@ Scream.addEventListener('click', function(){
 })
 GreatWave.addEventListener('click', function(){
     alert("The Great Wave off Kanagawa is a woodblock print by Japanese ukiyo-e artist Hokusai, created in late 1831 during the Edo period of Japanese history. The print depicts three boats moving through a storm-tossed sea, with a large, cresting wave forming a spiral in the centre over the boats and Mount Fuji visible in the background. The print is Hokusai's best-known work and the first in his series Thirty-six Views of Mount Fuji, in which the use of Prussian blue revolutionized Japanese prints. The composition of The Great Wave is a synthesis of traditional Japanese prints and use of graphical perspective developed in Europe, and earned him immediate success in Japan and later in Europe.")
+})
+Bluesky.addEventListener('click', function(){
+    window.open("https://bsky.app/profile/artgalleryproject.bsky.social");
 })
